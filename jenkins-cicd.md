@@ -15,7 +15,7 @@ pipeline {
         DOCKER_IMAGE = 'helloworld-image'
         CONTAINER_NAME = 'helloworld-container'
         DOCKERFILE_PATH = '/home/ubuntu/Dockerfile'
-        WORKSPACE_DIR = '/var/lib/jenkins/workspace/hello-world'
+        WORKSPACE_DIR = '/var/lib/jenkins/workspace/demo-app'
         PORT_MAPPING = '9999:8080'
     }
  
