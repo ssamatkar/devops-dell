@@ -97,6 +97,7 @@ sudo docker run -d -p 9999:8080 --name helloworld-container helloworld-image
 
 * Once the build is successful, access the tomcat server page,
 
-To access the Page In Browser Type **"http:// < Your Jenkins Host Public IP >:8080/hello-world-war-1.0.0/"** to see the website
-* **Example:** http://3.95.192.77:8080/hello-world-war-1.0.0/
----
+To access the Page In Browser Type **"http:// < Your Jenkins Host Public IP >:9999/hello-world-war-1.0.0/"** to see the website
+* **Example:** http://3.95.192.77:9999/hello-world-war-1.0.0/
+
+* Note: In the security group add the port number 9999.
