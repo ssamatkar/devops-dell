@@ -7,4 +7,6 @@ DevOps Labs
 6. Lab 6: https://github.com/ssamatkar/devops-dell/blob/main/gitlab.md
 7. Lab 7: https://github.com/ssamatkar/devops-dell/blob/main/Terraform-install.md
 8. Lab 8: https://github.com/ssamatkar/devops-dell/blob/main/Terraform-vpc.md
-9. Lab 9: 
+9. Lab 9: https://github.com/ssamatkar/devops-dell/blob/main/Lab-9%20Terraform-module.md
+10. Lab 10: https://github.com/ssamatkar/devops-dell/blob/main/Lab-10%20Ansible-installation.md
+11. Lab 11: 
