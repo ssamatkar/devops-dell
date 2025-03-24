@@ -14,8 +14,8 @@ Add the given content, by pressing "INSERT"
   hosts: all
   become: yes
   tasks:
-    - name: Task1 will install httpd using yum
-      yum:
+    - name: Task1 will install httpd using apt
+      apt:
         name: apache2
         #local cache of the package information available from the repositories configured on the system
         update_cache: yes
@@ -74,13 +74,20 @@ curl <private_ip of node2>
 ### Task 2: Uninstall apache web server
 
 With slight modification, we can change the playbook to uninstall apache (self exercise)
-```
-cp install-apache-pb.yml uninstall-apache-pb.yml
-```
+
 ```
 vi uninstall-apache-pb.yml
 ```
-Retain only first task. Replace 'state: latest' with 'state: absent'
+```
+- name: This play will install apache web servers on all the hosts
+  hosts: all
+  become: yes
+  tasks:
+    - name: Task1 will uninstall httpd using apt
+      apt:
+        name: apache2
+        state: absent
+```
 
 Check if the playbook is ok
 ```
